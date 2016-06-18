@@ -1,3 +1,4 @@
+DROP TABLE effective_care;
 CREATE EXTERNAL TABLE effective_care (
 providerID string,
 hospitalName string,
@@ -25,6 +26,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/hospital_compare';
 
+DROP TABLE survey_responses;
 CREATE EXTERNAL TABLE survey_responses (
 providerID string,
 hospitalName string,
@@ -69,6 +71,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/hospital_compare';
 
+DROP TABLE hospitals;
 CREATE EXTERNAL TABLE hospitals (
 providerID string,
 hospitalName string,
@@ -91,6 +94,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/hospital_compare';
 
+DROP TABLE measures;
 CREATE EXTERNAL TABLE measures (
 measureName string,
 measureID string,
@@ -108,6 +112,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/hospital_compare';
 
+DROP TABLE readmissions;
 CREATE EXTERNAL TABLE readmissions (
 providerID string,
 hospitalName string,
