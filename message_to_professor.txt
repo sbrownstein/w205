@@ -1,0 +1,15 @@
+Despite my best efforts, I am forced to submit an incomplete assignment for Exercise 1. 
+
+I had immense trouble with the Week 5 set-up, facing multiple error messages and technical issues at nearly every step. Finally, I recruited review by a professional programmer; it took him several hours to help me resolve the issues so I could proceed.
+
+The Week 6 instructions included a small but vexing typo in the SERDE PROPERTIES () command. Having tracked down the specifics, I alerted the Professor to share my findings to assist others who may have faced a similar issue.
+
+In creating tables for each entity in my ER diagram, I tried numerous approaches to identify and index unique attributes as PRIMARY KEY (as well as FOREIGN KEY in related entities). The syntax in the Professor’s SQL slides, as well as that posted in various online resources, would not work on my particular device, returning the error message: “operation not supported.” Eventually I had to forgo that approach and proceed without indexed attributes.
+
+Finally, I attempted to join three tables necessary for conducting the analysis in Week 7. Although I believe the commands were correctly structured (the job launched with no errors), they could not be executed within a reasonable amount of time. At the advice of the Professor, I separated the run into two tasks (i.e., a join on two joins), which launched without error but took 2.5 hours to complete. The result produced was not quite as intended, but given time constraints I could not rerun the query and wait for more results.
+
+Having expended more time and effort than commensurate with the intent of this assignment, I have stopped here. 
+
+Here in my github repo, please find each of the submission items with the exception of the final step (answers to the questions). I have submitted the queries I would have used to complete the analysis had I had the resources to do so. I regret not being able to test the efficacy of these queries so that I may have made any corrections needed before submission.
+
+Although I lack a formal programming background, I have devoted considerable effort to mastering the foundational concepts to keep up with the pace of this class. I will continue to exert my best efforts on the remaining assignments and hope I have better success than with this Exercise.
