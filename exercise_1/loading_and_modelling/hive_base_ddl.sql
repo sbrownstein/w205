@@ -24,7 +24,7 @@ WITH SERDEPROPERTIES (
 "escapeChar" = "\\"
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/hospital_compare';
+LOCATION '/user/w205/hospital_compare/effective';
 
 DROP TABLE survey_responses;
 CREATE EXTERNAL TABLE survey_responses (
@@ -69,7 +69,7 @@ WITH SERDEPROPERTIES (
 "escapeChar" = "\\"
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/hospital_compare';
+LOCATION '/user/w205/hospital_compare/surveys';
 
 DROP TABLE hospitals;
 CREATE EXTERNAL TABLE hospitals (
@@ -92,7 +92,7 @@ WITH SERDEPROPERTIES (
 "escapeChar" = "\\"
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/hospital_compare';
+LOCATION '/user/w205/hospital_compare/hospital';
 
 DROP TABLE measures;
 CREATE EXTERNAL TABLE measures (
@@ -110,7 +110,7 @@ WITH SERDEPROPERTIES (
 "escapeChar" = "\\"
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/hospital_compare';
+LOCATION '/user/w205/hospital_compare/measures';
 
 DROP TABLE readmissions;
 CREATE EXTERNAL TABLE readmissions (
@@ -140,4 +140,4 @@ WITH SERDEPROPERTIES (
 "escapeChar" = "\\"
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/hospital_compare';
+LOCATION '/user/w205/hospital_compare/readmissions';
